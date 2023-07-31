@@ -1,5 +1,7 @@
 # Maven Toolchains Demo
 
+demo of Maven Toolchains to compile source using JDK11, compile and running test using JDK17
+
 ## Before You Start
 
 在开始尝试构建本项目之前，需要进行几步工作
