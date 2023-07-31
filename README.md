@@ -1,5 +1,18 @@
 # Maven Toolchains Demo
 
+## Before You Start
+
+在开始尝试构建本项目之前，需要进行几步工作
+
+1. 安装 JDK11
+2. 安装 JDK17 
+   >推荐使用 [sdkman](https://sdkman.io/) 来进行快速安装，使用 `sdk env install` 即可快速下载环境
+
+3. 查看 JDK11 和 JDK17 的路径 
+   > 如果使用的是 `sdk env install` 来下载 JDK11 和 JDK17，可以使用 `sdk home java xxx` 来查看，其中 xxx 是对应的 JDK 版本标识
+
+4. 替换 `toolchains.xml` 中的路径，把 `${jdk11.home}` 和 `${jdk17.home}` 替换为你的 JDK11 和 JDK17 的路径
+
 ## What is Maven Toolchains
 
 > see [Guide to Using Toolchains](https://maven.apache.org/guides/mini/guide-using-toolchains.html)

@@ -9,7 +9,7 @@
             <id>JavaSE-11</id>
         </provides>
         <configuration>
-            <jdkHome>/Users/zhengyi/.sdkman/candidates/java/11.0.20-amzn/</jdkHome>
+            <jdkHome>${jdk11.home}</jdkHome>
         </configuration>
     </toolchain>
 
@@ -21,7 +21,7 @@
             <id>JavaSE-17</id>
         </provides>
         <configuration>
-            <jdkHome>/Users/zhengyi/.sdkman/candidates/java/17.0.8-amzn/</jdkHome>
+            <jdkHome>${jdk17.home}</jdkHome>
         </configuration>
     </toolchain>
 
